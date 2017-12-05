@@ -26,6 +26,7 @@ DEFAULT_COUNTERS = [
     # Memory Counters
     ["Memory", None, "Available MBytes",         "exchange.memory.available", "gauge"],
     ["Memory", None, "% Committed Bytes In Use", "exchange.memory.committed", "gauge"],
+
     # Network Counters
     ["Network Interface", None, "Packets Outbound Errors", "exchange.network.outbound_errors",           "gauge"],
     ["TCPv6",             None, "Connection Failures",     "exchange.network.tcpv6.connection_failures", "gauge"],
